@@ -1,0 +1,76 @@
+
+$primary-color:#444;
+$secondary_color:#eece1a;
+@mixin easeOut {
+     transition: all 0.5s ease-out;
+}
+@import 'home';
+@import 'aboutme';
+@import 'skills';
+@import 'projects';
+@import 'contactme';
+@import 'config';
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+}
+nav{
+    width: 100%;
+    height: 50px;
+    background: $primary-color;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+
+    .links{
+        display: flex;
+        justify-content: space-evenly;
+        width: 80%;
+        
+
+        li{
+            list-style: none;
+
+            .nav-link{
+                text-decoration: none;
+                text-transform: uppercase;
+                color: white;
+                
+                
+
+            }
+            .nav-link:hover{
+                color: $secondary_color;
+                @include easeOut;
+            }
+        }
+    }
+    .menu-btn{
+        width: 5%;
+        background: yellow;
+
+        .btn-line{
+            background: white;
+            width: 28px;
+            height: 3px;
+            margin: 0 0 5px 0;
+        }
+    }
+}
+
+footer{
+    width: 100%;
+    height: 30px;
+    background: $primary-color;
+
+    p{
+        text-align: center;
+        text-transform: uppercase;
+    }
+}

@@ -1,0 +1,28 @@
+.contact_me{
+    width: 100%;
+    height: 300px;
+    background: lighten($color: $primary-color, $amount: 4);
+}
+.heading_con{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 30px;
+}
+.myform{
+   width: 100%;
+   position: relative;
+}
+
+h1,h2,h3{
+    position: relative;
+}
+.lg_heading{
+    margin-left: -40px;
+    line-height: 1;
+}
+.sm_heading{
+    margin-left: -70px;
+    margin-top: 50px;
+    white-space: nowrap;
+    font-size: 15px;
+}

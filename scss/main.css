@@ -1,0 +1,260 @@
+.home {
+  width: 100%;
+  height: 500px;
+  background: #444;
+}
+
+h1, h2, h3 {
+  font-weight: 700;
+}
+h1.lg_heading, h2.lg_heading, h3.lg_heading {
+  font-size: 6rem;
+  position: absolute;
+  left: 100px;
+  top: 200px;
+  color: white;
+}
+h1.sm_heading, h2.sm_heading, h3.sm_heading {
+  position: absolute;
+  font-size: 2rem;
+  color: white;
+  left: 100px;
+  top: 300px;
+  margin-bottom: 2rem;
+  padding: 0.2rem 1rem;
+  background: rgba(73, 73, 73, 0.5);
+}
+
+.icons {
+  position: absolute;
+  left: 100px;
+  top: 400px;
+  margin-top: 1rem;
+}
+
+.icons a {
+  padding: 5px;
+  color: white;
+}
+
+.icons a:hover {
+  color: #eece1a;
+  transition: all 0.5s ease-out;
+}
+
+.about_me {
+  width: 100%;
+  height: 500px;
+  background: #515151;
+  position: relative;
+}
+
+.maindiv {
+  display: flex;
+}
+
+.me {
+  width: 50%;
+  background: #474747;
+  position: relative;
+}
+
+.image {
+  width: 50%;
+  background: #515151;
+  height: 500px;
+  position: relative;
+}
+
+.myimage {
+  width: 400px;
+  height: 400px;
+  background: #eece1a;
+  border-radius: 50%;
+  position: absolute;
+  left: 100px;
+  top: 70px;
+}
+
+.heading_1 {
+  font-size: 40px;
+  font-weight: 400;
+  position: absolute;
+  top: 50px;
+  left: 200px;
+}
+
+.p1 {
+  text-align: center;
+  margin-top: 120px;
+  font-size: 20px;
+  line-height: 2.5;
+}
+
+.skills {
+  width: 100%;
+  height: 350px;
+  background: #5e5e5e;
+}
+
+h1 {
+  margin: 0;
+}
+h1.heading_2 {
+  text-align: center;
+  font-size: 40px;
+}
+h1.heading_3 {
+  text-align: center;
+  font-size: 30px;
+}
+h1.heading_4 {
+  text-align: center;
+  font-size: 30px;
+}
+
+.myskills {
+  width: 100%;
+  height: 300px;
+  display: flex;
+}
+
+.learnt {
+  width: 50%;
+  height: 300px;
+  background: #515151;
+  position: relative;
+}
+.learnt .threedivs {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 100px;
+}
+
+.learning {
+  width: 50%;
+  height: 300px;
+  position: relative;
+  background: #474747;
+}
+.learning .twodivs {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 100px;
+}
+.learning .react {
+  position: relative;
+}
+.learning .react .pr {
+  text-transform: uppercase;
+  position: absolute;
+  left: 20px;
+  top: 110px;
+  font-size: 20px;
+}
+.learning .php {
+  position: relative;
+}
+.learning .php .pp {
+  text-transform: uppercase;
+  position: absolute;
+  left: 30px;
+  top: 110px;
+  font-size: 20px;
+}
+
+.projects {
+  width: 100%;
+  height: 400px;
+  background: #444;
+}
+
+.contact_me {
+  width: 100%;
+  height: 300px;
+  background: #4e4e4e;
+}
+
+.heading_con {
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 30px;
+}
+
+.myform {
+  width: 100%;
+  position: relative;
+}
+
+h1, h2, h3 {
+  position: relative;
+}
+
+.lg_heading {
+  margin-left: -40px;
+  line-height: 1;
+}
+
+.sm_heading {
+  margin-left: -70px;
+  margin-top: 50px;
+  white-space: nowrap;
+  font-size: 15px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+}
+
+nav {
+  width: 100%;
+  height: 50px;
+  background: #444;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+nav .links {
+  display: flex;
+  justify-content: space-evenly;
+  width: 80%;
+}
+nav .links li {
+  list-style: none;
+}
+nav .links li .nav-link {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: white;
+}
+nav .links li .nav-link:hover {
+  color: #eece1a;
+  transition: all 0.5s ease-out;
+}
+nav .menu-btn {
+  width: 5%;
+  background: yellow;
+}
+nav .menu-btn .btn-line {
+  background: white;
+  width: 28px;
+  height: 3px;
+  margin: 0 0 5px 0;
+}
+
+footer {
+  width: 100%;
+  height: 30px;
+  background: #444;
+}
+footer p {
+  text-align: center;
+  text-transform: uppercase;
+}/*# sourceMappingURL=main.css.map */
